@@ -130,7 +130,7 @@ a:hover, a:active, a:focus {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #ffffff;
+  background: none repeat scroll 0 0 #000000;
 }
 
 .sk-spinner-wordpress.sk-spinner {
@@ -634,32 +634,53 @@ footer .footer-copyright {
 -----------------------------------------*/
 
 .social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
+
     text-align: center;
+   
 }
 
 .social-icon li {
+    
     display: inline-block;
     list-style: none;
+ 
+    
+}
+
+ul {
+  padding: 0;
+}
+
+.social-icon ul {
+ 
+  margin: 0; 
+  list-style: none;
+}
+
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
 
 .social-icon li a {
+  
     color: #777;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 26px;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     text-align: center;
     vertical-align: middle;
-    position: relative;
+    position:relative;
+
     margin: 22px 12px 10px 12px;
 }
 
 .social-icon li a:hover {
-    color: #000;
-    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    transform: scale(1.4);
+
 }
 
 
