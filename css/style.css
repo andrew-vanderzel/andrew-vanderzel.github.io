@@ -26,11 +26,13 @@ h1 {
 }
 
 h2 {
+  margin-top: 0%;
   font-size: 32px;
   line-height: 46px;
 }
 
 h3 {
+  
   font-size: 26px;
 }
 
@@ -48,6 +50,7 @@ p {
     line-height: 26px;
     letter-spacing: 0.2px;
 }
+
 
 strong {
   font-weight: 400;
@@ -376,7 +379,10 @@ a:hover, a:active, a:focus {
 #single-project .col-md-6,
 #single-project .col-md-4 {
   padding-left: 0px;
+  
   padding-bottom: 22px;
+
+
 }
 
 #single-project .col-md-12 {
@@ -556,7 +562,10 @@ a:hover, a:active, a:focus {
 }
 
 .blog-comment-form .col-md-4 {
-  padding-left: 0px;
+  margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .blog-comment-form .form-control {
