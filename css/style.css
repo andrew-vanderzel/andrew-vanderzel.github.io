@@ -355,7 +355,7 @@ a:hover, a:active, a:focus {
 #portfolio .portfolio-thumb {
   position: relative;
   padding: 0;
-  margin-top: -50px;
+  margin-top: 30px;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
@@ -405,14 +405,14 @@ a:hover, a:active, a:focus {
 #single-project .col-md-6,
 #single-project .col-md-4 {
   padding-left: 0px;
-  
-  padding-bottom: 22px;
+  margin-top: 50px;
+  padding-bottom: 50px;
 
 
 }
 
 #single-project .col-md-12 {
-  padding-top: 42px;
+  padding-top: 82px;
 }
 
 #single-project .text-center strong {
