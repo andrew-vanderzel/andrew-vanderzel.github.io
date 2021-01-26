@@ -746,6 +746,10 @@ ul {
     font-size: 22px;
   }
 
+  p {
+    font-size: 12px;
+  }
+
   .section-title h2 {
     font-size: 22px;
     line-height: 35px;
