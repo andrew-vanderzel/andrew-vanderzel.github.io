@@ -411,19 +411,19 @@ a:hover, a:active, a:focus {
 #single-project .col-md-6,
 #single-project .col-md-4 {
   padding-left: 0px;
-  margin-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 10px;
+  padding-bottom: 10px;
 
 
 }
 
 #single-project .col-md-12 {
-  padding-top: 82px;
+ 
 }
 
 #single-project .text-center strong {
   display: block;
-  padding-top: 12px;
+
 }
 
 #single-project a {
