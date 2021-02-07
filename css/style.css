@@ -29,15 +29,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-   
-    font-size: 72px;
-    padding-bottom: 14px;
-    margin-bottom: 0px;
-    font-weight : bold;
+  color : #F71735;
+  font-size: 72px;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
+  font-weight : bold;
 }
 
 h2 {
-  color : #d90429;
+  
   margin-top: 0%;
   font-size: 32px;
   font-weight: lighter;
@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-  color : #d90429;
+  color : #F71735;
   font-size: 26px;
 }
 
@@ -257,7 +257,7 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #d90429;;
+    color: #F71735;;
     background-color: transparent;
 }
 
@@ -362,6 +362,7 @@ a:hover, a:active, a:focus {
   position: relative;
   padding: 0;
   margin-top: 30px;
+  object-fit: none;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
@@ -463,7 +464,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"] {
-  background: #d90429;
+  background: #F71735;
   border-radius: 100px;
   border: none;
   color: #ffffff;
@@ -683,7 +684,7 @@ footer .footer-copyright {
 }
 
 .social-icon li {
-  color : #d90429;
+  color : #25E4E1;
     display: inline-block;
     list-style: none;
  
@@ -710,7 +711,7 @@ ul {
 
 .social-icon li a {
   
-  color : #d90429;
+  color : #25E4E1;
     cursor: pointer;
     font-size: 36px;
     text-decoration: none;
@@ -725,7 +726,7 @@ ul {
 
 
 .social-icon li a:hover {
-  color : #d90429;
+  color : #F71735;
     transform: scale(1.4);
 
 }
